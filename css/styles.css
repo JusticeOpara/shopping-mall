@@ -1,0 +1,136 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+body {
+  background-color: #fdf5ef;
+  color: #3b426b;
+}
+
+h1 {
+  font-size: 65px;
+  font-family: "Yantramanav", sans-serif;
+}
+
+footer {
+  background-color: #e5e9fc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.nav-items {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.main-image {
+  width: 50%;
+  border-radius: 5%;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 56px;
+  margin-top: 56px;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: inline-block;
+}
+.stack {
+  font-family: "Yantramanav", sans-serif;
+  text-align: center;
+}
+.block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.stock {
+  border-radius: 50%;
+}
+
+.image-center-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.meta {
+  background-color: #fcdacd;
+  height: 30%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+.atom {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 20px;
+}
+.hex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sandbox {
+  /* align-self:center ; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.max {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 2%;
+  font-size: 200%;
+}
+
+@media (max-width: 1200px) {
+  .nav-items {
+    display: none;
+  }
+  .main-image {
+    display: none;
+  }
+  .showcase {
+    margin-top: -20%;
+    margin-left: 50px;
+  }
+
+  .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hex {
+    align-items: center;
+  }
+  .supermarket {
+    display: none;
+  }
+  footer {
+    align-items: center;
+  }
+}
